@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Id</th>
+      <th scope="col">Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each newCategories}}
+      <tr>
+        <th scope="row">{{row}}</th>
+        <td>{{id}}</td>
+        <td>{{category}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
